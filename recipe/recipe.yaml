@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: tinyhtml5
-  version: "2.0.0"
+  version: "2.1.0"
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/tinyhtml5-${{ version }}.tar.gz
-  sha256: 086f998833da24c300c414d9fe81d9b368fd04cb9d2596a008421cbc705fcfcc
+  sha256: 60a50ec3d938a37e491efa01af895853060943dcebb5627de5b10d188b338a67
 
 build:
   number: 0
@@ -38,7 +38,7 @@ about:
   summary: HTML parser based on the WHATWG HTML specification
   homepage: https://pypi.org/project/tinyhtml5/
   description: |
-       tinyhtml5 is a HTML5 parser that transforms a possibly malformed HTML document into an ElementTree tree.
+    tinyhtml5 is a HTML5 parser that transforms a possibly malformed HTML document into an ElementTree tree.
   repository: https://github.com/CourtBouillon/tinyhtml5
   documentation: https://doc.courtbouillon.org/tinyhtml5/stable/
   license: MIT
